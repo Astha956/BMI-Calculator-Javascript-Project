@@ -1,0 +1,61 @@
+.container {
+  width: 575px;
+  height: 825px;
+  background-color: #F2F2F2; /* Light gray background */
+  padding-left: 30px;
+}
+
+#height,
+#weight {
+  width: 150px;
+  height: 25px;
+  margin-top: 30px;
+  background-color: #EFEFEF; /* Light gray input field */
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 5px;
+}
+
+#weight-guide {
+  margin-left: 75px;
+  margin-top: 25px;
+}
+
+#results {
+  font-size: 35px;
+  margin-left: 90px;
+  margin-top: 20px;
+  color: #333; /* Dark gray text */
+}
+
+button {
+  width: 150px;
+  height: 35px;
+  margin-left: 90px;
+  margin-top: 25px;
+  background-color: #3498db; /* Blue background */
+  color: #fff; /* White text */
+  border: none;
+  border-radius: 8px;
+  font-size: 25px;
+  cursor: pointer; /* Change cursor to a hand on hover */
+}
+
+h1 {
+  padding-left: 15px;
+  padding-top: 25px;
+}
+
+/* Additional styling for the BMI Weight Guide */
+#weight-guide h3 {
+  color: #3498db; /* Blue heading text */
+}
+
+#weight-guide p {
+  color: #555; /* Dark gray guide text */
+}
+
+/* Styling the labels for input fields */
+label {
+  font-weight: bold;
+  color: #555; /* Dark gray label text */
+}
